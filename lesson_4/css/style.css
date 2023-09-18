@@ -1,0 +1,134 @@
+@import url("reset.css");
+/*-----------------------------------*/
+[class*="__title"]{
+    color: rgb(197, 32, 145);
+}
+.header {
+}
+.header a{
+    color: rgb(72, 220, 84);
+}
+.header__title {
+}
+.title {
+    color: red;
+}
+.header__menu {
+}
+.menu {
+}
+.menu__item {
+}
+.menu__link {
+    color: blue;
+}
+/*-------------------------------*/
+.page {
+}
+.block-one.page__block-one{
+    color: brown;
+}
+.block-one__image {
+}
+.block-one__content {
+}
+/*-------------------------------*/
+.page__block-two {
+}
+.page__block-two .block-two__content{
+    color: rgb(136, 190, 17);
+}
+.block-two__title {
+    
+}
+
+.block-two__content {
+}
+.block-two__images {
+}
+/*-------------------------------*/
+.page__block-three {
+}
+.block-three__title {
+}
+.block-three__image {
+}
+.block-three__content {
+    color: rgb(113, 14, 159);
+}
+.block-three__caution-info {
+}
+.caution-info__title {
+}
+.caution-info__list {
+}
+.caution-info__item {
+    color: rgb(255, 176, 79);
+}
+/*-------------------------------*/
+.page__block-four {
+}
+
+.block-four__title {
+}
+.block-four__image {
+}
+.block-four__content {
+    color: rgb(30, 198, 12);
+}
+/*-------------------------------*/
+.page__block-five {
+}
+
+.block-five__title {
+}
+.block-five__image {
+}
+.block-five__content {
+    color: rgb(4, 228, 153);
+}
+/*-------------------------------*/
+.page__block-six {
+}
+.block-six__title {
+}
+.block-six__image {
+}
+.block-six__content {
+    color: rgb(125, 72, 174);
+}
+/*-------------------------------*/
+.page__block-seven {
+}
+
+.block-seven__title {
+}
+.block-seven__image {
+}
+.block-seven__list-plus {
+}
+.list-plus__title {
+}
+.list-plus__list {
+}
+.list-plus__item {
+    color: rgb(198, 195, 13);
+}
+.block-seven__list-minus {
+}
+.list-minus__title {
+}
+.list-minus__list {
+}
+.list-minus__item {
+    color: rgb(13, 62, 131);
+}
+/*-------------------------------*/
+.footer > div > a {
+    color: rgb(38, 217, 217);
+}
+.footer__image {
+}
+.footer__nav {
+
+}
