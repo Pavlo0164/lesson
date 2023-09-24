@@ -1,0 +1,32 @@
+/*@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");*/
+@import url("dz-fonts.css");
+.wrapper{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.46;
+    color: #7D7D7D;
+}
+.block-one__title {
+    color: #37393F;
+    font-size: 30px;
+}
+.block-two__title {
+    color: #6B77E5;  
+    font-size: 20px;
+}
+.block-one__title,.block-two__title,.page-two__title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.27;
+}
+
+.page-two__title {
+    color: #37393F;
+    font-weight: 700;
+    font-size: 40px;
+}
+.page-two__item {
+    font-weight: 500;
+}

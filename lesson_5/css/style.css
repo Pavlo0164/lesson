@@ -1,0 +1,152 @@
+@import url("fonts.css");
+@import url("reset.css");
+@import url("dz.css");
+/*-----------------------------------*/
+/*@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");*/
+/*@import url("https://fonts.googleapis.com/css?family=Rubik:regular,500,700,&display=swap");*/
+@import url("https://fonts.googleapis.com/css?family=Vazirmatn:regular,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Grenze:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Mina:regular,700&display=swap");
+
+body{
+    font-family: "Rubik", sans-serif;
+    font-weight: 400; 
+}
+.header__title {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 2px #ca6969;
+    text-transform: uppercase;
+}
+.page__par-one > p {
+    color: rgb(67, 81, 76);
+    text-align: center;
+    line-height: 1.4;
+
+}
+.sound-pitch__title {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1.8;
+    color: #07b077;
+    letter-spacing: 1.5px;
+}
+.sound-pitch__item {
+    text-indent: 25px;
+    font-size: 17px;
+    line-height: 1.3;
+    text-transform: lowercase;
+}
+.page__par-two {
+    line-height: 1.5;
+    color: rgb(7, 154, 154);
+}
+.variety__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 2;
+    text-align: center;
+    color: #53cf117c;
+}
+.variety__content {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    text-align: justify;
+}
+.variety__sub-title {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 2;
+   
+}
+.variety__item {
+    text-indent: 20px;
+    line-height: 1.6;
+    color: rgb(235, 182, 117);
+}
+.variety__par-one, .variety__par-two {
+    line-height: 1.9;
+    font-size: 17px;
+    text-align: center;
+    color: rgba(4, 57, 57, 0.53);
+}
+.wind-instruments__title {
+    font-family: 'Vazirmatn', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 2.4;
+}
+
+.wind-instruments__item {
+    text-indent: 30px;
+    font-family: 'Vazirmatn', sans-serif;
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 18px;
+    color: rgba(39, 63, 2, 0.696);
+}
+.copper-brass__title, .woodwind__title {
+   font-family: 'Grenze',serif;
+   font-weight: 700;
+   font-size: 33px;
+   line-height: 2;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: rgb(139, 6, 157);
+}
+.copper-brass__content,.woodwind__content {
+    line-height: 1.4;
+    font-family: 'Grenze', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.apply__title,.apply__content{
+    font-family: "Mina", sans-serif;
+}
+.apply__title {
+    font-size: 29px;
+    line-height: 2;
+    letter-spacing: 3px;
+    text-indent: 50px;
+    text-shadow: 2px 1px 1px #7353df,
+        1px 1px 2px #7353df;
+}
+.apply__content {
+    font-size: 17px;
+    line-height: 1.2;
+    text-indent: 20px;
+    color: #220582;
+}
+
+.footer__link {
+    text-align: center;
+}
+.link__dz {
+    font-size: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 4;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: #474a50;
+    text-decoration: underline;
+}
+
+.simply__text {
+    font-size: 40px;
+    text-decoration: line-through;
+    color: #2a344a;
+    line-height: 2;
+    text-shadow: 2px -2px 3px #474a50;
+    text-align: right;
+}
+/*-----------------------------*/
+
+
