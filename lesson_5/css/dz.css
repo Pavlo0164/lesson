@@ -11,6 +11,7 @@
 .block-one__title {
     color: #37393F;
     font-size: 30px;
+    text-transform: capitalize;
 }
 .block-two__title {
     color: #6B77E5;  
