@@ -1,0 +1,139 @@
+@import url("fonts.css");
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+body{
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 1.27;
+    font-size: 18px;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 15px 0 0 0;
+}
+
+.block-one__image {
+   margin: 0 0 37px 0;
+}
+.block-one__image > img{
+    max-width: 100%;
+}
+
+.block-one__title {
+    text-transform: capitalize;
+    color: #37393F;
+    font-size: 30px;
+    margin: 0 0 3px 0;
+}
+.block-one__par-one {
+    color: #7D7D7D;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 1.46;
+    margin: 0 0 42px 0;
+}
+.block-one__sub-title {
+    color: #6B77E5;
+    font-size: 20px;
+    margin: 0 0 5px 0;
+
+}
+.block-one__par-two {
+    color: #7D7D7D;
+    font-family: "Inter";
+    font-weight: 400;
+    line-height: 1.46;
+    margin: 0 0 39px 0;
+}
+.page__block-two{
+    display: flex;
+}
+.block-two__image > img {
+    max-width: 100%;
+}
+.block-two__content {
+    margin: 0 0 0 30px;
+}
+.block-two__title {
+    color: #37393F;
+    font-size: 25px;
+    margin: 0 0 15px 0;
+}
+.block-two__sub-title {
+    color: #40DDB6;
+    font-size: 20px;
+    margin: 0 0 23.5px;
+}
+
+.block-two__item {
+    color: #7D7D7D;
+    font-family: "Inter";
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+
+/*========================================================*/
+.block-info__title {
+    color: #37393F;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 40px 0 13px 0;
+    text-transform: capitalize;
+}
+.block-info__par-1, .block-info__par-2,.block-info__par-3,.block-info__par-4 {
+    color: #7D7D7D;
+    font-family: "Inter";
+    line-height: 1.46;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+
+.block-info__item-1,.block-info__item-2 {
+    color: #7D7D7D;
+    font-weight: 500;
+    font-family: "Inter";
+    margin: 0 0 30px 0;
+    line-height: 1.46;
+}
+.page__block-info{
+    margin: 0 0 40px 0;
+}
+/*===========================================================*/
+.page__jewels {
+    display: flex;
+    column-gap: 38px;
+    padding: 40px 0 30px 0;
+}
+.jewels__content {
+    max-width: 50%;
+}
+.jewels__sub-title {
+    color: #D06B00;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0 0 5px 0;
+}
+.jewels__title {
+    font-family: "DM Serif Text";
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 1.46;
+    margin: 0 0 25px 0;
+    color: #0E333D;
+    text-transform: capitalize;
+}
+.jewels__text {
+    color: #474747;
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+.jewels__images {
+    display: flex;
+    column-gap: 15px;
+}
+.jewels__image {
+    max-width: 100%;
+}
