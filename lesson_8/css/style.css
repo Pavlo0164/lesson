@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular&display=swap");
+
+@import url("fonts.css");
+@import url("reset.css");
+
+/*===============================================*/
+.page__block-one {
+     font-family: "Inter", sans-serif;
+     font-size: 18px;
+     font-weight: 400;
+     color: #7D7D7D;
+     max-width: 643px;
+     margin: 0 auto;
+     padding: 40px 15px;
+
+}
+.block-one__sub-title {
+    color: #37393F;
+    font-weight: 500;
+    background: url("../img/Box.jpg") 0 2.5px no-repeat;
+    padding-left: 18px;
+    text-transform: capitalize;
+    margin: 0 0 16px 0;
+}
+.block-one__title {
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.21;
+    margin: 0 0 20px 0;
+    max-width: 414px;
+}
+.block-one__text{
+    margin-bottom: 20px;
+}
+.block-one__text p {
+    line-height: 1.46;
+}
+.block-one__par-1{
+    margin-bottom: 15px;
+}
+.block-one__list {
+    margin-bottom: 43px;
+}
+.block-one__item {
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: url("../img/Vector.svg") 0 0 no-repeat;
+    min-height: 27px;
+    padding: 3px 0 0 35px;
+}
+.block-one__item-1{
+    margin: 0 0 23px 0;
+}
+.block-one__cards {
+    font-size: 0px;
+    margin-bottom: 37px;
+}
+.block-one__card-1{
+    margin-right: 19px;
+}
+.block-one__card {
+    font-size: 18px;
+    vertical-align: top;
+    width: 295px;
+    display: inline-block;
+    padding: 31px;
+    border: 1px solid #E3E3E3;
+    vertical-align: top;
+}
+.card__icon {
+    vertical-align: top;
+    margin-right: 19px;
+    display: inline-block;
+}
+.card__content {
+    max-width: 164px;
+    display: inline-block; 
+}
+.card__title {
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.card__text {
+    font-size: 16px;
+    line-height: 1.35;
+}
+.block-one__link {
+    display: inline-block;
+    padding: 21px 27px;
+    background: #6B77E5;
+    color: #FFF;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+/*==================================================================*/
+.page__block-two {
+    max-width: 1263px;
+    margin: 0 auto;
+    padding: 30px 22px;
+    font-family: "Causten", sans-serif;
+    font-size: 20px;
+    color: #807D7E;
+    font-weight: 400;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+}
+.block-two__title {
+    font-family: "Core Sans C", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 0.56px;
+    line-height: 1.2;
+    color: #3C4242;
+    background: url("../img/Rectangle21.jpg") 0 2px no-repeat;
+    margin: 0 0 30px -21px;
+    padding-left: 21px;
+}
+.card-euphoria__title,
+.block-two__link {
+    color: #807D7E;
+    font-family: "Core Sans C", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.card-euphoria__text,
+.text__par-1 {
+    margin-bottom: 20px;
+}
+.card-euphoria__text span{
+    font-weight: 700;
+}
+.block-two__link{
+    text-transform: capitalize;
+}
+/*==============================================*/
+.page__block-three {
+    font-family: "Causten", sans-serif;
+    font-weight: 300;
+    font-size: 0px;
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 60px 15px;
+    letter-spacing: 1px;
+    color: #FFF;
+}
+.block-three__card {
+    font-size: 20px;
+    display: inline-block;
+    width: 614px;
+    height: 639.72px;
+    background: url("../img/unsplash_bBiuSdck8tU.png") 0 0  no-repeat;
+    padding: 183px 74px 174px 74px;
+}
+.block-three__title {
+    font-size: 34px;
+    font-family: "Core Sans C", sans-serif;
+    letter-spacing: 0.208px;
+    line-height: 1.47;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.block-three__text {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.block-three__link {
+    color: #3C4242;
+    display: inline-block;
+    padding: 12px 44px;
+    border-radius: 8px;
+    background: #FFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+.block-three__image {
+    
+    display: inline-block;
+    vertical-align: top;
+    width: 625px;
+    height: 639.72px;
+    background: url("../img/Image-2.jpg") 0 0 no-repeat;
+}
+/*=====================================================================*/
+.page__block-four {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 50px 15px;
+    font-family: "Inter", sans-serif;
+    color: #37393F;
+    font-weight: 400;
+}
+.block-four__sub-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    background: url("../img/Box.jpg") 528px 2.5px no-repeat;
+    margin-bottom: 14px;
+}
+.block-four__title {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    margin-bottom: 14px;
+}
+.block-four__text {
+    margin: 0 auto;
+    text-align: center;
+    color: #7D7D7D;
+    font-size: 18px;
+    line-height: 1.46;
+    width: 852px;
+    margin-bottom: 47px;
+}
+.block-four__card {
+    display: inline-block;
+}
+.card__image {
+   margin-bottom: 24px;
+}
+.card__title {
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+}
+.image-1,.image-2,.image-4,.image-5{
+    margin-right: 29.5px;
+}
+.image-1{
+    width: 384px;
+    height: 499px;
+    background: url("../img/Photo-1.jpg") 0 0 no-repeat;
+    
+}
+.image-2{
+    width: 384px;
+    height: 499px;
+    background: url("../img/Photo-2.jpg") 0 0 no-repeat;
+}
+.image-3{
+    width: 384px;
+    height: 499px;
+    background: url("../img/Photo-3.jpg") 0 0 no-repeat;
+}
+.image-4{
+    width: 384px;
+    height: 499px;
+    background: url("../img/Photo-4.jpg") 0 0 no-repeat;
+}
+.image-5{
+    width: 384px;
+    height: 499px;
+    background: url("../img/Photo-5.jpg") 0 0 no-repeat;
+}
+.image-6{
+    width: 384px;
+    height: 499px;
+    background: url("../img/Photo-6.jpg") 0 0 no-repeat;
+}
+.card__date {
+    background: url("../img/Group22.svg") 0 0 no-repeat;
+    padding-top: px;
+    padding-left: 23px;
+    color: #7D7D7D;
+    font-size: 14px;
+    line-height: 1.46;
+}
+.block-four__row-1{
+    margin-bottom: 58px;
+}
+/*=======================================================================*/
+.footer {
+    padding-bottom: 30px;
+}
+.footer__link {
+    font-family: "Causten", sans-serif;
+    display: block;
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 30px 0;
+    letter-spacing: 2px;
+    text-align: center;
+    border: 2px solid gray;
+    margin: 10px 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px #3C4242;
+    background-color: #807D7E;
+    color: #FFF;
+}
+/*=====================================================*/
+.main{  
+}
+.main__block-1{
+    
+    background-image: url("../img/image1212.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main__block-2,
+.main__block-5{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 0
+}
+.main__block-3,
+.main__block-4{
+    width: 49%;
+    display: inline-block;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 60px;
+    vertical-align: top;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.main__block-3{
+    background-image: url("../img/fon1.jpg");
+}
+.main__block-4{
+    background-image: url("../img/fon2.jpg");
+}
+.main__block-5{
+    background:
+    url("../img/vinni-pukh-v-png.png") 200px 40px/200px 200px no-repeat fixed,
+    url("../img/vinni-pukh-v-png.png") 1100px 40px/200px 200px no-repeat fixed,
+     url("../img/labrador-3.jpg") center/cover no-repeat
+                ;
+    height: 700px;
+    margin-bottom: 40px;
+}
+.main__block-6{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 300px;
+    background: url("../img/bob.png") 0 0 /200px 200px  repeat-x;
+}
+.main__block-7{
+    height: 900px;
+    background: url("../img/bazuka.png") 100px 0px/ 200px 200px repeat-y fixed,
+                url("../img/acula.png") 900px 0/200px 200px repeat-y fixed;
+}
+
