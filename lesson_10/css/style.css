@@ -1,0 +1,75 @@
+
+@import url("fonts.css");
+@import url("reset.css");
+/*===============================================*/
+body{
+    background-color: rgb(94, 239, 191);
+}
+.header {
+    background-color: rgb(10, 125, 125);
+}
+.header__title {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: center;
+}
+.main{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.main__title-1{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(211, 28, 144);
+    padding: 20px 0;
+}
+.main__block-1 {
+    background-color: rgb(166, 140, 190);
+    border-radius: 10px;
+    padding: 30px;
+}
+.main__block-1>img{
+    vertical-align: middle;
+}
+.main__block-1>img:not(:last-child){
+    margin-right: 10px;
+}
+.main__title-2{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 0;
+    color: rgb(232, 148, 21);
+}
+.main__block-2{
+    padding: 20px ;
+    background-color: rgb(222, 102, 102);
+    border-radius: 10px;
+}
+.main__block-2>img{
+    vertical-align: middle;
+    padding: 20px;
+}
+.main__title-3{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 0;
+    color: rgb(32, 117, 192);
+}
+.main__block-3{
+    font-size: 0px;
+    background-color: rgb(9, 152, 152);
+    border-radius: 10px;
+    padding: 20px;
+}
+.main__block-3>img{
+    max-width: 100%;
+    font-size: 30px;
+    display: block;
+}
+.main__block-3>img:not(:last-child){
+    margin-bottom: 10px;
+}
+
