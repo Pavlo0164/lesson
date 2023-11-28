@@ -555,11 +555,9 @@
 .consulting__items {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     row-gap: 23px;
     column-gap: 37px;
     max-width: 609px;
-    justify-content: flex-start;
 }
 .consulting__items>div:last-child a{
     color: #40DDB6;
