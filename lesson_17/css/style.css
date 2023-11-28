@@ -659,6 +659,11 @@
        
     }
 }
+@media (max-width: 1230px){
+    .consulting__wrapper{
+        padding-right: 12px;
+    }
+}
 @media (max-width: 650px){
     .consulting__row {
        flex-direction: column;
