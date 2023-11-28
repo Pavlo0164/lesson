@@ -469,7 +469,7 @@
 }
 .consulting__content {
     flex: 1 1 36%;
-   padding:138px 10px
+   padding:138px 10px;
     align-self: center;
 }
 .consulting__sub-title {
@@ -626,7 +626,7 @@
     }
     .consulting__content{
         order: 2;
-        padding:60px 10px
+        padding:60px 10px;
     }
     .consulting__image{
         order: 1;
