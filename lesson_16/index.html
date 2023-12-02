@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>lesson 16</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"></header>
+        <main class="page">
+            <div class="page__section-one section-one ">
+                <div class="section-one__container">
+                    <form  action="#" class="section-one__form-consulting form-consulting">
+                        <div class="form-consulting__sub-title sub-title">
+                            <div class="sub-title__square"></div>
+                            <h3 class="sub-title__text">Contact Us</h3>
+                        </div>
+                        <h2 class="form-consulting__title">
+                            Request A Call Back !
+                        </h2>
+                        <div class="form-consulting__body">
+                            <input placeholder="Your Name" type="text" name="name" class="form-consulting__item">
+                            <input placeholder="Email Address" type="email" name="email" class="form-consulting__item">
+                            <input placeholder="Phone Number" type="tel" name="phone" class="form-consulting__item">
+                            <input placeholder="Subject" type="text" name="subject" class="form-consulting__item">
+                            <textarea placeholder="Message..." class="form-consulting__item--textarea" name="message"></textarea>
+                        </div>
+                        <div class="form-consulting__button">
+                            <button class="form-consulting__submit-button" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="page__section-two section-two">
+                <div class="section-two__container">
+                    <form action="#" class="section-two__form form-two">
+                        <h2 class="form-two__title">My Info</h2>
+                        <h3 class="form-two__sub-title">Add Address</h3>
+                        <div class="form-two__body">
+                            <div class="form-two__item">
+                                <label for="first-name" class="form-two__label">First Name*</label>
+                                <input id="first-name" type="text" placeholder="First Name" class="form-two__input">
+                            </div>
+                            <div class="form-two__item">
+                                <label for="last-name" class="form-two__label">Last Name*</label>
+                                <input id="last-name" type="text" placeholder="Last Name" class="form-two__input">
+                            </div>
+                            <div class="form-two__item">
+                                <label for="country" class="form-two__label">Country/Region</label>
+                                <input id="country" type="text" placeholder="Country/Region" class="form-two__input">
+                            </div>
+                            <div class="form-two__item">
+                                <label for="company-name" class="form-two__label">Company Name</label>
+                                <input id="company-name" type="text" placeholder="Company(optional)" class="form-two__input">
+                            </div>
+                            <div class="form-two__item">
+                                <label for="street-address" class="form-two__label">Street Address*</label>
+                                <input id="street-address" type="text" placeholder="House number and street name" class="form-two__input">
+                            </div>
+                            <div class="form-two__item">
+                                <label for="apartments" class="form-two__label">Apt, suite, unit</label>
+                                <input id="apartments" type="text" placeholder="apartment, suite, unit, etc. (optional)" class="form-two__input">
+                            </div>
+                            <div class="form-two__item">
+                                <label for="city" class="form-two__label">City*</label>
+                                <input id="city" type="text" placeholder="Town/City" class="form-two__input">
+                            </div>
+                            <div class="form-two__item form-two__item--state">
+                                <label for="state" class="form-two__label">State*</label>
+                                <select class="form-two__select" name="state" id="state">
+                                    <option value="Vinnitsa">Vinnitsa</option>
+                                    <option value="Lviv">Lviv</option>
+                                </select>
+                            </div>
+                            <div class="form-two__item">
+                                <label for="phone" class="form-two__label">Phone*</label>
+                                <input id="phone" type="tel" placeholder="Phone" class="form-two__input">
+                            </div>
+                            <div class="form-two__item">
+                                <label for="postal-code" class="form-two__label">Postal Code*</label>
+                                <input id="postal-code" type="tel" placeholder="Postal Code" class="form-two__input">
+                            </div>
+                            <div class="form-two__item--textarea">
+                                <label for="delivery-instruction" class="form-two__label">Delivery Instruction</label>
+                                <textarea class="form-two__textarea" name="delivery-instruction" id="delivery-instruction" placeholder="Delivery Instruction"></textarea>
+                            </div>
+                            <div class="form-two__item--checkbox form-two__item--margin">
+                                <input id="delivery-address" type="checkbox"  class="form-two__input--checkbox">
+                                <label for="delivery-address" class="form-two__label--checkbox">Set as default shipping address</label>
+                            </div>
+                            <div class="form-two__item--checkbox">
+                                <input id="payment-address" type="checkbox"  class="form-two__input--checkbox">
+                                <label for="payment-address" class="form-two__label--checkbox">Set as default billing address </label>
+                            </div>
+                        </div>
+                        <div class="form-two__buttons">
+                            <button class="form-two__button-submit">Save</button>
+                            <button class="form-two__button-reset">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="page__section-three section-three">
+                <div class="section-three__container">
+                    <div class="section-three__title title">
+                        <div class="title__line"></div>
+                        <h2 class="title__text">Check Out</h2>
+                    </div>
+                    <div class="section-three__form form-section-three">
+                        <div class="form-section-three__billing-details billing-details">
+                            <h3 class="billing-details__title title-section-three">
+                                Billing Details
+                            </h3>
+                            <div class="billing-details__body">
+                                <div class="billing-details__item">
+                                    <label for="first-name" class="billing-details__label">First Name*</label>
+                                    <input placeholder="First Name" id="first-name" name="first-name" type="text" class="billing-details__input">
+                                </div>
+                                <div class="billing-details__item">
+                                    <label for="last-name" class="billing-details__label">Last Name*</label>
+                                    <input placeholder="Last Name" id="last-name" name="last-name" type="text" class="billing-details__input">
+                                </div>
+                                <div class="billing-details__item">
+                                    <label for="country-region" class="billing-details__label">Country/Region*</label>
+                                    <input placeholder="Country/Region" id="country-region" name="country-region" type="text" class="billing-details__input">
+                                </div>
+                                <div class="billing-details__item">
+                                    <label for="company-name" class="billing-details__label">Company Name</label>
+                                    <input placeholder="Company(optional)" id="company-name" name="company-name" type="text" class="billing-details__input">
+                                </div>
+                                <div class="billing-details__item">
+                                    <label for="house-street" class="billing-details__label">Street Address*</label>
+                                    <input placeholder="House number and street name" id="house-street" name="house-street" type="text" class="billing-details__input">
+                                </div>
+                                <div class="billing-details__item">
+                                    <label for="option" class="billing-details__label">Apt, suite, unit</label>
+                                    <input placeholder="apartment, suite, unit, etc. (optional)" id="option" name="option" type="text" class="billing-details__input">
+                                </div>
+                                <div class="billing-details__item-33">
+                                    <label for="city" class="billing-details__label">Town/City</label>
+                                    <input placeholder="Town/City" id="city" name="city" type="text" class="billing-details__input">
+                                </div>
+                                <div class="billing-details__item-33 ">
+                                    <label for="state-two" class="billing-details__label">State*</label>
+                                    <select class="billing-details__select" name="state-two" id="state-two">
+                                        <option value="Vinnitsa">Vinnitsa</option>
+                                        <option value="Lviv">Lviv</option>
+                                    </select>
+                                </div>
+                                <div class="billing-details__item-33">
+                                    <label for="code" class="billing-details__label">Postal Code*</label>
+                                    <input placeholder="Postal Code" id="code" name="code" type="text" class="billing-details__input">
+                                </div>
+                                <div class="billing-details__item-phone">
+                                    <label for="phone" class="billing-details__label">Phone</label>
+                                    <input placeholder="phone" id="phone" name="phone" type="tel" class="billing-details__input">
+                                </div>
+                            </div>
+                            <div class="billing-details__button">
+                                <button type="submit">Continue to delivery</button>
+                            </div>
+                            <div class=" billing-details__item--checkbox">
+                                <input  id="save-info" name="save-info" type="checkbox" class="billing-details__input-checkbox">
+                                <label for="save-info" class="billing-details__label">Save my information for a faster checkout</label>
+                            </div>
+                        </div>
+                        <div class="form-section-three__shipping-address shipping-address">
+                            <h3 class="shipping-address__title title-section-three">
+                                Shipping Address
+                            </h3>
+                            <div class="shipping-address__text">
+                                <p >
+                                    Select the address that matches your card or payment method.
+                                </p>
+                            </div>
+                            
+                            <div class="shipping-address__body">
+                                <div class="shipping-address__item">
+                                    <input id="same" type="radio" name="radio" class="shipping-address__input">
+                                    <label for="same" class="shipping-address__label">
+                                        Same as Billing address
+                                    </label>
+                                </div>
+                                <div class="shipping-address__item">
+                                    <input id="different" type="radio" name="radio" class="shipping-address__input">
+                                    <label for="different" class="shipping-address__label">
+                                        Use a different shipping address
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-section-three__shipping-method shipping-method">
+                            <h3 class="shipping-method__title title-section-three">
+                                Shipping Method
+                            </h3>
+                            <div class="shipping-method__body">
+                                <div class="shipping-method__item">
+                                    <h4 class="shipping-method__date">
+                                        Arrives by Monday, June 7
+                                    </h4>
+                                </div>
+                                <div class="shipping-method__item--two">
+                                    <div class="shipping-method__content content-shipping">
+                                        <h4 class="content-shipping__title">
+                                            Delivery Charges
+                                        </h4>
+                                        <p class="content-shipping__text">
+                                            Additional fess may apply
+                                        </p>
+                                    </div>
+                                    <p class="shipping-method__price">
+                                        $5.00
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-section-three__payment-method payment-method">
+                            <h3 class="payment-method__title title-section-three">
+                                Payment Method
+                            </h3>
+                            <div class="payment-method__text">
+                                <p>All transactions are secure and encrypted.</p>
+                            </div>
+                            <div class="payment-method__body">
+                                <div class="payment-method__item item-payment">
+                                    <input id="card" type="radio" name="payment"  class="item-payment__input">
+                                    <div class="item-payment__body">
+                                        <h3 for="card" class="item-payment__title">
+                                            Credit Card
+                                        </h3>
+                                        <div class="item-payment__text--top item-payment__text">
+                                            <p>We accept all major credit cards.</p>
+                                        </div>
+                                        <div class="item-payment__icons">
+                                            <img src="img/payment-method-1.svg" alt="#" class="item-payment__icon">
+                                            <img src="img/payment-method-2.svg" alt="#" class="item-payment__icon">
+                                            <img src="img/payment-method-3.svg" alt="#" class="item-payment__icon">
+                                            <img src="img/payment-method-4.svg" alt="#" class="item-payment__icon">
+                                        </div>
+                                        <div class="item-payment__inputs">
+                                            <input placeholder="Card number" type="text">
+                                            <input placeholder="Name of card" type="text" >
+                                            <input placeholder="Expiration date (MM/YY)" type="text" >
+                                            <input placeholder="Security Code" type="password" >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="payment-method__item item-payment">
+                                    <input id="cash" type="radio" name="payment"  class="item-payment__input">
+                                    <div class="item-payment__content">
+                                        <h3 for="cash" class="item-payment__title">
+                                            Cash on delivery
+                                        </h3>
+                                        <div class="item-payment__text">
+                                            <p>Pay with cash upon delivery.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="payment-method__item item-payment">
+                                    <input name="payment" id="paypol" type="radio" class="item-payment__input">
+                                    <label for="paypol" class="item-payment__label">Paypol</label>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="form-section-three__button-submit">Pay Now</button>
+                    </div>
+                    
+
+                </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+            </div>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+</body>
+</html>
