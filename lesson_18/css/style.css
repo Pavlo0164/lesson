@@ -314,9 +314,15 @@
     font-size: 24px;
     position: relative;
 }
+.collection__button:hover::before{
+    top:0;
+    left:0;
+    
+}
 .collection__button::before{
     content: "";
     position: absolute;
+    transition:all 0.3s;
     top: 15px;
     left: -8px;
     width: 100%;
