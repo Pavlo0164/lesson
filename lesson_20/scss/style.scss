@@ -1,0 +1,252 @@
+@import "_reset.scss";
+@import "_fonts.scss";
+@import "_section.scss";
+//коментар
+/*===
+=
+==
+=*/
+$mainColor:#000;
+/*========================================*/
+.wrapper {
+}
+.header {
+}
+.page {
+    margin-bottom: 30px;
+    font-family: "Causten", sans-serif;
+    font-size: 18px;
+
+		&__container {
+            display: flex;
+            max-width: 1440px;
+            margin: 0 auto;
+            justify-content: center;
+            @media (max-width:992px){
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            
+		}
+        &__empty{
+            @media (max-width:992px){
+                display: none;
+            }
+            flex: 0 1 7%;
+        }
+		&__image {
+            @media (max-width:992px){
+                display: none;
+            }
+            flex: 0 1 46%;
+            margin-right: 78px;
+            &>img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                aspect-ratio: 695/956;
+            }
+		}
+
+		&__content {
+            padding-top: 60px;
+            flex-grow: 1;
+            max-width: 567px;
+            
+		}
+
+		&__form {
+		}
+}
+.form {
+        &__body-line{
+            overflow: hidden;
+            margin-bottom: 50px;
+        }
+		&__title {
+            color: #333;
+            font-family: 'Core Sans C',sans-serif;
+            font-size: 34px;
+            font-weight: 600;
+            letter-spacing: 0.68px;
+            text-transform: capitalize;
+            margin-bottom: 50px;
+		}
+
+		&__links {
+            & > a{
+                border-radius: 8px;
+                border: 1px solid #3C4242;
+                width: 100%;
+                padding: 16px 20px;
+                color: #8A33FD;
+                font-size: 22px;
+                font-weight: 500;
+                text-transform: capitalize;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 12px;
+            }
+		}
+
+		&__google-link {
+            cursor: pointer;
+            &:hover{
+                text-decoration: underline;
+            }
+            margin-bottom: 20px;
+            &::before{
+                content: "";
+                width: 20px;
+                height: 20px;
+                background: url("../img/google.svg") center/cover no-repeat;
+            }
+		}
+
+		&__twitter-link {
+            cursor: pointer;
+            &:hover{
+                text-decoration: underline;
+            }
+            &::before{
+                content: "";
+                width: 20px;
+                height: 20px;
+                background: url("../img/twitter.svg") center/cover no-repeat;
+            }
+            margin-bottom: 50px;
+		}
+
+		&__line {
+            color: #666;
+            text-transform: uppercase;
+            font-family: 'Core Sans C',sans-serif;
+            font-weight: 400;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            &::before{
+                content: "";
+                height: 2px;
+                width: 100%;
+                background-color: rgba(102, 102, 102, 0.25); 
+                position: relative;
+                left: -23px;
+            }
+            &::after{
+                content: "";
+                position: relative;
+                right: -23px;
+                height: 2px;
+                width: 100%;
+                background-color: rgba(102, 102, 102, 0.25); 
+            }
+		}
+
+		&__name {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 33px;
+		}
+
+		&__label {
+            color: #3C4242;
+            font-weight: 400;
+            letter-spacing: 0.36px;
+		}
+
+		&__input {
+            height: 58px;
+            border-radius: 8px;
+            border: 1px solid #3C4242;
+            padding: 0 20px;
+		}
+
+		&__password {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 10px;
+		}
+
+		&__label-group {
+            display: flex;
+            justify-content: space-between;
+		}
+
+		&__show-password {
+            color: #807D7E;
+            font-weight: 400;
+            letter-spacing: 0.36px;
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
+            gap: 15px;
+            &::before{
+                content: "";
+                width: 18.2px;
+                height: 16px;
+                background: url('../img/hide-view.svg') center/cover no-repeat;
+            }
+		}
+
+		&__forget {
+           text-align: end;
+            margin-bottom: 30px;
+            & a{
+                &:hover{
+                    text-decoration: none;
+                }
+                text-decoration: underline;
+            }
+		}
+
+		&__button-submit {
+            border-radius: 8px;
+            background: #8A33FD;
+            padding: 16px 50px;
+            color: #fff;
+            font-weight: 500;
+            margin-bottom: 10px;
+            transition: all 0.3s;
+            &:hover{
+                color: #8A33FD;
+                background-color: #fff;
+                outline: 1px solid #8A33FD ;
+            }
+            &:active{
+                background: #8A33FD;
+                color: #fff;
+            }
+		}
+
+		&__sign-up {
+            display: flex;
+            gap: 5px;
+            & a{
+                text-decoration: underline;
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+		}
+}
+.footer {
+    
+		&__link {
+            text-align: center;
+            width: 100%;
+            padding: 30px;
+            font-size: 50px;
+            text-transform: uppercase;
+            color: #7cfd37;
+            background-color: #8A33FD;
+            transition: all 0.3s;
+            &:hover{
+                color: #8A33FD;
+                background-color:#7cfd37 ;
+            }
+		}
+}

@@ -1,0 +1,117 @@
+.section {
+    font-family: "Poppins",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    &__container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 150px 15px;
+        display: grid;
+        grid-template-columns: 359px 1fr;
+        gap: 51px;
+        @media(max-width:992px){
+            grid-template-columns: 1fr;
+        }
+    }
+
+    &__left-block {
+        padding: 56px 35px;
+        background: #F4F4F4;
+        @media(max-width:400px){
+            padding: 36px 15px;
+        }
+    }
+
+    &__right-block {
+    }
+}
+.left-block {
+    align-self: flex-start;
+    &__title {
+        color: #37393F;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.27;
+        margin-bottom: 24px;
+    }
+
+    &__menu {
+    }
+}
+.menu {
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        @media(max-width:992px){
+          
+        }
+    }
+
+    &__item {
+    }
+
+    &__link {
+        padding: 14px 20px;
+        color: #37393F;
+        font-size: 20px;
+        line-height: 1.27;
+        width: 283px;
+        @media(max-width:400px){
+            width: 220px;
+            padding: 10px 15px;
+        }
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    &__link--active {
+        background: #6B77E5;
+        color: #fff;
+    }
+}
+.right-block {
+    
+
+    &__item {
+        &.open-item>.right-block__text{
+            display: block;
+        }
+        &.open-item>.right-block__title{
+            margin-bottom: 10px;
+        }
+        &:not(:last-child){
+            margin-bottom: 32px;
+        }
+        border: 1px solid #E3E3E3;
+        padding: 25px 30px;
+    }
+
+    &__title {
+        color: #37393F;
+        font-size: 20px;
+        font-weight: 600;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        &::after{
+            content: "";
+            width: 16px;
+            height: 10px;
+            background: url("../img/arrow.svg")center/cover no-repeat;
+        }
+    }
+
+    &__text {
+        color: #7D7D7D;
+        font-family: "Inter",sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.46;
+        display: none;
+    }
+}

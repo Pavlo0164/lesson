@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>SCSS</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header"></header>
+        <main class="page">
+            <div class="page__container">
+                <div class="page__image">
+                    <img src="img/image-1.png" alt="#">
+                </div>
+                <div class="page__content">
+                    <form action="#" class="page__form form">
+                        <h1 class="form__title">
+                            Sign In Page
+                        </h1>
+                        <div class="form__links">
+                            <a class="form__google-link">
+                                Continue With Google
+                            </a>
+                            <a class="form__twitter-link"> 
+                               Continue With Twitter
+                            </a>
+                        </div>
+                        <div class="form__body-line">
+                            <div class="form__line">OR</div>
+                        </div>
+                        
+                        <div class="form__name">
+                            <label for="name" class="form__label">
+                                User name or email address
+                            </label>
+                            <input id="name" type="text" class="form__input">
+                        </div>
+                        <div class="form__password">
+                            <div class="form__label-group">
+                                <label for="password" class="form__label">
+                                    Password
+                                </label>
+                                <p class="form__show-password">
+                                    hide
+                                </p>
+                            </div>
+                            <input id="password" type="password" class="form__input">
+                        </div>
+                        <div class="form__forget">
+                            <a href="#">
+                                Forget your password
+                            </a>
+                        </div>
+                        <button type="submit" class="form__button-submit">
+                            Sign In
+                        </button>
+                        <div class="form__sign-up">
+                            <p>Don’t have an account?</p>
+                            <a href="#"> Sign up</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="page__empty"></div>
+            </div>
+        </main>
+        <footer class="footer">
+            <a href="page-two.html" class="footer__link">page-2</a>
+        </footer>
+    </div>
+</body>
+</html>
